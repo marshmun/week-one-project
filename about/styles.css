@@ -1,0 +1,175 @@
+html{
+    background-color:black;
+}
+body{
+    max-width:1280px;
+    background-color:#F2F1E8;
+    margin:auto;
+    color: #131511;
+}
+nav{
+    background-color:#FFFFFF;
+    position: fixed;
+    top:0;
+    width: 1280px;
+    margin:auto;
+    padding: 6px 0;
+}
+a:link{
+    color:#2B2F26;
+}
+a:hover{
+    color:#CD5D67;
+}
+a:active{
+    color:#968772;
+}
+
+.logo{
+    float:left;
+    padding: 0px 0px 0 10px;
+}
+div a{
+    height: 10px;
+}
+img{
+    padding-top: 5px;
+}
+
+.nav-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-right:92px;
+    list-style: none;
+    font-size: 20px;
+    margin:1rem 21rem;
+    font-family:'Roboto';
+    text-transform: uppercase;
+}
+.linkage{
+    color:#968772;
+}
+.linkage:hover{
+    color:#967343;
+}
+.side-image{
+    content: url("../images/optimized/birdhouse.jpg");
+    height: 9rem;
+    margin-right: 1.5em;
+    float:left;
+    min-width: 10rem;
+    /*margin-top: 2rem;*/
+}
+footer{
+    background-color: #2B2F26;
+    color:#F0E9CA;
+    padding:1.5rem;
+}
+table{
+    border-collapse: collapse;
+}
+table, th, td{
+    border: 1px solid black;
+}
+body{
+    /*margin-top: 2.9em;*/
+    font-size: 1.5em;
+    text-align: left;
+}
+.title{
+    font-size: 3em;
+    text-align: center;
+    padding-top:3rem;
+    margin-bottom:2rem;
+}
+
+.first{
+    /*display:flex;*/
+    margin-left: 13.5rem;
+    margin-right: 13.5rem;
+}
+.quote{
+    border-left: 1px black solid;
+    margin-left: 13.5rem;
+    margin-right: 13.5rem;
+}
+.quote p{
+    margin-left:2rem;
+    margin-right:0rem;
+    font-style: italic;
+    font-size: 23px;
+}
+.second{
+    font-size: 1.25em;
+    margin-bottom: 0;
+    margin-left: 13.5rem;
+    margin-right: 13.5rem;
+    }
+.info{
+    margin-top: 10px;
+    margin-left: 13.5rem;
+    margin-right: 13.5rem;
+}
+.master-img{
+    background: url("../images/optimized/background-3.jpg") no-repeat center;
+    background-size: cover;
+    height: 18rem;
+    background-attachment:fixed;
+}
+.room{
+    display:flex;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    font-size: 5rem;
+    margin-top: 3rem;
+    padding:5rem;
+}
+#fac p{
+    margin-left:13.5rem;
+    margin-right:13.5rem;
+    margin-bottom: 0px;
+    font-size: 2rem;
+}
+.third{
+    display: flex;
+    margin-left: 13.5rem;
+    margin-right: 13.5rem;
+}
+.side-imgs{
+    float:right;
+    background: url("../images/optimized/background-1.jpg")no-repeat center;
+    background-size: cover;
+    height: 8rem;
+    width:10rem;
+}
+.side-imgs p{
+    font-size: 15px;
+    margin-top:9rem;
+    width:10rem;
+}
+.monthly-plans{
+    margin-left:13.5rem;
+    margin-right: 13.5rem;
+    font-size: 2rem;
+    margin-bottom:1rem;
+}
+table{
+    margin-left: 13.5rem;
+    margin-right: 13.5rem;
+    margin-bottom: 3rem;
+}
+th{
+    padding:1rem;
+    text-align: center;
+    font-family: normal;
+}
+
+td{
+    padding:1rem;
+}
+.even{
+    background-color: #F2EADC;
+}
